@@ -1,5 +1,3 @@
-# VHDL_Syntax
-
 # VHDL-SYNTAX
 
 ## Syntax Grundlagen
