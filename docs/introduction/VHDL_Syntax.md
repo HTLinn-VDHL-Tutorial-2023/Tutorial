@@ -22,7 +22,7 @@ nav_order: 1
 
 ### Zuweisung von Signalen an Variablen und umgekehrt:
 
-- Zuweisungen werden mit dem Zeichen **=>** bzw**. <=** gemacht
+- Zuweisungen werden mit dem Zeichen **=>** bzw. **<=** gemacht
 - Es können **ganze Ausdrücke** wie zb. *A or B* oder einfach **fixe Werte** zugewiesen werden
 - Grundsätzlich werden **Variablen bei der Zuweisung** **nur kopiert** wodurch die ursprüngliche nicht verloren geht
 - **WICHTIG:** Zuweisungen von **RECHTS NACH LINKS** nicht andersrum!
@@ -40,7 +40,7 @@ nav_order: 1
 
 SYNTAX:
 
-*signal <ㅤsignalnameㅤ>: typ;*
+*signal <ㅤsignalnameㅤ>: typ;*  //Klammern nicht nötig 
 
 - Konstante Werte wie **bit** und **std_logic** müssen mit **Hochkomma ‘ ‘** eingeschlossen werden
 - Beim Verknüpfen müssen die Variablen **gleichen Typs** sein

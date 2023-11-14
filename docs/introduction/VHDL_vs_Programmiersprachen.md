@@ -6,6 +6,7 @@ nav_order: 2
 ---
 # Wie unterscheidet sich VHDL zu Programmiersprachen?
 
+
 **VHDL wird als Beschreibungssprache verwendet und ist keine Programmiersprache.
 Z.B. VHDL1** ist ein weltweit **akzeptierter Standard** zur **Dokumentation**, **funktionalen Simulation** und zum **Datenaustausch** beim Entwurf digitaler Systeme.
 
