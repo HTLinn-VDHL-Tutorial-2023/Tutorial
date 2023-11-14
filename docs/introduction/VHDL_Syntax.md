@@ -1,3 +1,9 @@
+---
+layout: default
+title: Syntax
+nav_order: 2
+---
+
 # VHDL-SYNTAX
 
 ## Syntax Grundlagen
@@ -57,4 +63,3 @@ Wert Z:
 - Wird Signalen zugewiesen
 - Der sogenannte **„Tristate-Buffer“** welcher bei der Zuweisung in einer technischen Schaltung entsteht, wird bei der **Zuweisung** *‘Z‘* in den **hochohmigen Zustand** geschalten
 - Sollte dem Buffer einer der Werte 1 oder 0 zugewiesen werden, bleibt er bzw schaltet er in den Gegentaktbetrieb
--

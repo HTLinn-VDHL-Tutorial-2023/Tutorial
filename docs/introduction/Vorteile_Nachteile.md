@@ -1,3 +1,8 @@
+---
+layout: default
+title: Vor- Nachteile
+nav_order: 2
+---
 # Vorteile VHDL:
 
 - Eine wesentliche Erleichterung, die VHDL bietet, ist die Zusammenfassung von Signalen gleichen Typs zu Vektoren. Als Vektor wird dabei ein eindimensionales Array (Feld) verstanden. Der Laufindex des Vektors ist eine Integer zahl.
