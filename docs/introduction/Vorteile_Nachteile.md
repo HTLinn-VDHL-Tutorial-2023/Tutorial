@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Einführung
 title: Vor- Nachteile
 nav_order: 2
 ---

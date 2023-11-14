@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Einführung
 title: Syntax
 nav_order: 2
 ---
