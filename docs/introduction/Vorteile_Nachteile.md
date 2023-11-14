@@ -2,7 +2,7 @@
 layout: default
 parent: Einführung
 title: Vor- Nachteile
-nav_order: 2
+nav_order: 3
 ---
 # Vorteile VHDL:
 

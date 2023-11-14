@@ -40,7 +40,7 @@ nav_order: 1
 
 SYNTAX:
 
-*signal <signalname>: typ;*
+*signal <ㅤsignalnameㅤ>: typ;*
 
 - Konstante Werte wie **bit** und **std_logic** müssen mit **Hochkomma ‘ ‘** eingeschlossen werden
 - Beim Verknüpfen müssen die Variablen **gleichen Typs** sein
