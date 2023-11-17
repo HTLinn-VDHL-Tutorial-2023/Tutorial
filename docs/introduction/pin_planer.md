@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Kombinatorische Logik
+parent: Einführung
 title: Pin Planer
-nav_order: 5
+nav_order: 6
 ---
 
 ![Pinplanner-picture](../assets/pin_planner.png)
