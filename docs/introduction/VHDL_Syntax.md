@@ -2,7 +2,7 @@
 layout: default
 parent: Einführung
 title: Syntax
-nav_order: 1
+nav_order: 2
 ---
 
 # VHDL-SYNTAX
