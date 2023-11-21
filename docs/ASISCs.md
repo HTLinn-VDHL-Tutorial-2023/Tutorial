@@ -11,7 +11,7 @@ title: ASICs
 
 Ein ASIC (Application-Specific Integrated Circuit, auf Deutsch: anwendungsspezifische integrierte Schaltung) ist ein Mikrochip, der für eine bestimmte Aufgabe entworfen wurde, beispielsweise für ein bestimmtes Übertragungsprotokoll, für Data-Center-Hardware wie Switches oder für mobile Computer wie Smartphones oder Wearables
 
-## PROM
+## **PROM**
 
 PROM ist eine Art Read-Only Memory, die im Gegensatz zum ROM, der seinen Inhalt unveränderlich bei seiner Herstellung eingegeben bekommt, einmal programmiert werden kann. PROM-Bausteine werden heutzutage kaum noch verwendet, da sie vom EPROM (Erasable and Programmable ROM) abgelöst wurden.
 
@@ -19,7 +19,7 @@ PROM ist eine Art Read-Only Memory, die im Gegensatz zum ROM, der seinen Inhalt 
 
 Grundprinzip eines PROM
 
-## PAL
+## **PAL**
 
 Programmable Array Logic (kurz PAL genannt) sind elektronische Halbleiterbausteine im Bereich der Digitaltechnik, die durch Programmierung eine logische Verknüpfungsstruktur der Eingangssignale zu den Ausgangssignalen erhalten. Eine alternative deutsche Bezeichnung lautete auch "programmierbare Zellenlogik".
 
