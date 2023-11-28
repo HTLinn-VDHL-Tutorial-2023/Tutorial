@@ -19,6 +19,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 <br />
 In entity werden, wie schon bei der kombinatorischen Logik, die Ein- und Ausgänge definiert. Achtung: Diese müssen auch im Pin-Planner korrekt eingestellt sein!
+
 ```vhdl
 entity Sequentiellelogikdemo is
     Port ( R : in STD_LOGIC;
@@ -31,18 +32,21 @@ end Sequentiellelogikdemo;
 
 <br />
 In architecture Behaviorial wird die Funktion der Schaltung definiert.
+
 ```vhdl
 architecture Behavioral of Sequentiellelogikdemo is
 ```
 
 <br />
 Am Beginn werden 2 Variablen (Signale) definiert, die später für den temporären Stand der Schaltung verwendet werden.
+
 ```vhdl
 	signal Q_temp, QN_temp : STD_LOGIC;
 ```
 
 <br />
 In diesem Programm gibt es nur einen process, in welchem das gesamte RS-FipFlop definiert ist.
+
 ```vhdl
 begin
     process (CLK)
@@ -51,6 +55,7 @@ begin
 
 <br />	
 Das erste if-statement wird nur ausgeführt, wenn der Takt bei einer steigenden Flanke angelangt ist, das FlipFlop ist also Taktflankengesteuert.
+
 ```vhdl	
         if rising_edge(CLK) then
             if R = '1' and S = '0' then
@@ -79,6 +84,8 @@ Der Zustand, dass beide Buttons genau gleichzeitig gedrückt sind, ist in der Re
 
 <br />
 Nach dem eigentlichen process wird dann noch der Status der Variablen der Ausgänge auf die richtigen Ausgänge geschrieben.
+
+
 ```vhdl
     Q <= Q_temp;
     QN <= QN_temp;
@@ -89,6 +96,6 @@ end Behavioral;
 Bei den Buttons ist darauf zu achten, dass sie beim drücken **0** zurückgeben, ungedrückt **1**.
 
 <br />
-### **Hier Noch der Pin Planner**
+###Hier Noch der Pin Planner
 
 ![Pinplanner-picture](../assets/pin_planner_sl.png)
