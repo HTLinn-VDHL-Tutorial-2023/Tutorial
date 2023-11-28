@@ -69,3 +69,8 @@ begin
 end Behaviorial;
 ```
 Bei den Buttons ist darauf zu achten, dass sie beim drücken **0** zurückgeben, ungedrückt **1**.
+
+
+### Hier Noch der Pin Planner
+
+![Pinplanner-picture](../assets/pin_planner_kl.png)

@@ -41,7 +41,7 @@ nav_order: 2
 ### SYNTAX:
 
 ```vhdl
-*signal <signalname>: typ;*
+signal <signalname>: typ;
 ```
 
 - Konstante Werte wie **bit** und **std_logic** müssen mit **Hochkomma ‘ ‘** eingeschlossen werden
@@ -90,8 +90,8 @@ nav_order: 2
 ### ***SYNTAX:***
 
 ```vhdl
-*signal <signalnamen>: typ( <lower> to <upper>);
-signal <signalnamen>: typ( <upper> downto <lower>);*
+signal <signalnamen>: typ( <lower> to <upper>);
+signal <signalnamen>: typ( <upper> downto <lower>);
 ```
 
 - Die **einzelnen Signale** des Vektors bilden sich aus **Signalnamen + Index in runden Klammern**
@@ -153,9 +153,9 @@ Im Header werden die **Definitionen** für die darauffolgende Schaltung angelegt
 ### BEISPIEL:
 
 ```vhdl
-*Library ieee; -- die verwendete Bibliothek
+Library ieee; -- die verwendete Bibliothek
 use ieee.std_logic_1164.all; -- die Definition der Grundtypen und Werte
-use ieee.std_logic_unsigned.all; -- die Definition einer unsigned-Arithmetik*
+use ieee.std_logic_unsigned.all; -- die Definition einer unsigned-Arithmetik
 ```
 
 ### Schnittstelle:
@@ -175,11 +175,11 @@ use ieee.std_logic_unsigned.all; -- die Definition einer unsigned-Arithmetik*
 ### SYNTAX:
 
 ```vhdl
-***entity** <blockname> **isport**
+**entity** <blockname> **isport**
 (
 <signalnamen>: <richtung> <typ>; -- bei weiteren Signalen: ‘;‘
 <signalnamen>: <richtung> <typ> -- beim letzten Signal KEIN ‘;‘
-);**end**;*
+);**end**;
 ```
 
 - Die entity muss den **EXAKT gleichen Namen wie im Schaltplan** haben (gilt genauso für Variablen)
@@ -192,9 +192,9 @@ use ieee.std_logic_unsigned.all; -- die Definition einer unsigned-Arithmetik*
 ### SYNTAX:
 
 ```vhdl
-***architecture** <beschreibungsname> of <blockname> is
+**architecture** <beschreibungsname> of <blockname> is
 -- hier können lokale Signale deklariert werden**begin**
--- hier steht die Funktionsbeschreibung (nebenläufig)**end**;*
+-- hier steht die Funktionsbeschreibung (nebenläufig)**end**;
 ```
 
 ## Anweisungen:
@@ -229,10 +229,10 @@ use ieee.std_logic_unsigned.all; -- die Definition einer unsigned-Arithmetik*
 ### SYNTAX:
 
 ```vhdl
-***with** <auswahlsignal> **select**
+**with** <auswahlsignal> **select**
 ergebnis <= <Verknüpfung_1> **when** <auswahlwert_1>,
 <Verknüpfung_1> **when** <auswahlwert_1>,
-<Verknüpfung_n> **when others**;*
+<Verknüpfung_n> **when others**;
 ```
 
 ### when/else:
@@ -240,9 +240,9 @@ ergebnis <= <Verknüpfung_1> **when** <auswahlwert_1>,
 ### SYNTAX:
 
 ```vhdl
-*<ergebnis> <= <Verknüpfung_1> **when** <Bedingung_1>
+<ergebnis> <= <Verknüpfung_1> **when** <Bedingung_1>
 					**else** <Verknüpfung_2> **when** <Bedingung_2>
-					**else** <Verknüpfung_n>;*
+					**else** <Verknüpfung_n>;
 ```
 
 - **with/select** und **when/else** sind **NUR IN NEBENLÄUFIGEN UMGEBUNGEN** zulässig *(siehe VHDL-Grundlagen)*
@@ -252,11 +252,11 @@ ergebnis <= <Verknüpfung_1> **when** <auswahlwert_1>,
 ### SYNTAX:
 
 ```vhdl
-***if** <Bedingung_1> **then** <Sequenzielle Anweisungen 1>;
+**if** <Bedingung_1> **then** <Sequenzielle Anweisungen 1>;
 **elsif** <Bedingung_2> **then** <Sequenzielle Anweisungen 2>;
 **elsif** <Bedingung_3> **then** <Sequenzielle Anweisungen 3>;
 **else** <Sequenzielle Anweisungen n>;
-**end if;***
+**end if;**
 ```
 
 ### case/is:
@@ -264,10 +264,10 @@ ergebnis <= <Verknüpfung_1> **when** <auswahlwert_1>,
 ### SYNTAX:
 
 ```vhdl
-***case** <testsignal> is
+**case** <testsignal> is
 		**when** <Wert_1> => <Sequentielle Anweisungen 1>;
 		**when** <Wert_2> => <Sequentielle Anweisungen 2>;
 		**when** <Wert_3> => <Sequentielle Anweisungen 3>;
 		**when others** => <Sequentielle Anweisungen n>;
-**end case;***
+**end case;**
 ```
