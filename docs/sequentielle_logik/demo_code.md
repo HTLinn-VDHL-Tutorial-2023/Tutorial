@@ -51,7 +51,7 @@ In diesem Programm gibt es nur einen process, in welchem das gesamte RS-FipFlop 
 begin
     process (CLK)
     begin
-	```
+```
 
 <br />	
 Das erste if-statement wird nur ausgeführt, wenn der Takt bei einer steigenden Flanke angelangt ist, das FlipFlop ist also Taktflankengesteuert.
