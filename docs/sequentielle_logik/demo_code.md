@@ -96,6 +96,7 @@ end Behavioral;
 Bei den Buttons ist darauf zu achten, dass sie beim drücken **0** zurückgeben, ungedrückt **1**.
 
 <br />
-###Hier Noch der Pin Planner
+
+### Hier Noch der Pin Planner
 
 ![Pinplanner-picture](../assets/pin_planner_sl.png)
