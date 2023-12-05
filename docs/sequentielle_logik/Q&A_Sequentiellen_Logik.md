@@ -2,7 +2,7 @@
 layout: default
 parent: Sequentielle Logik
 title: Q&A Sequentielle Logik
-nav_order: 2
+nav_order: 5
 ---
 # **Fragen zur Sequentiellen Logik:**
 
