@@ -1,4 +1,9 @@
-# VHDL Hierarchische Verschachtelungen
+---
+layout: default
+title: Hierarchische Verschachtelungen
+nav_order: 8
+---
+# Hierarchische Verschachtelungen
 
 ## IF-Verschachtelungen:
 
@@ -39,6 +44,7 @@ In VHDL ermöglichen Schleifen die **wiederholte Ausführung von Anweisungen**. 
 ### while-Schleifen:
 
 while-Schleifen werden so lange ausgeführt, wie eine bestimmte Bedingung wahr ist.
+
 
 ### for-Schleifen:
 

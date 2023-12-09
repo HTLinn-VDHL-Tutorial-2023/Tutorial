@@ -1,3 +1,9 @@
+---
+layout: default
+parent: Quartus & DE0-Board
+title: Einrichtung DE0
+nav_order: 3
+---
 # Einrichtung DE0
 
 In diesem Abschnitt geht es um die Einrichtung des DE0-Boards in Quartus und um das Erstellen eines Projekts, das korrekt für das DE0-Board eingestellt ist.

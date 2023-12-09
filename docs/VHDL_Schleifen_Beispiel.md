@@ -1,3 +1,8 @@
+---
+layout: default
+title: Schleifen Bsp.
+nav_order: 9
+---
 # VHDL-Schleifen: Codebeispiel
 
 ```vhdl

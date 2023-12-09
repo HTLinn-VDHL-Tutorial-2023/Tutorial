@@ -6,7 +6,6 @@ nav_order: 2
 ---
 # Simulation in Quartus
 
-Simulation in Quartus:
 
 In der Entwicklungsphase einer Schaltung ist es oftmals von Vorteil, wenn man die Schaltung ohne die physische Hardware testen und debuggen kann.
 

@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Standard Logic
+nav_order: 7
+---
 
 # VHDL Standard Logic (std_logic)
 
