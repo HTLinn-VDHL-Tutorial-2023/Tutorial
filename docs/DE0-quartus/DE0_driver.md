@@ -1,8 +1,8 @@
 ---
 layout: default
 parent: Quartus & DE0-Board
-title: Quartus auf dem DE0 Board
-nav_order: 5
+title: Treiber für das DE0 Board
+nav_order: 2
 ---
 # Quartus auf dem DE0 Board
 
@@ -24,3 +24,16 @@ Installationsanweisungen:
 9. Drücken Sie „OK“ wenn Sie das richtige Verzeichnis ausgewählt haben und drücken Sie dann „Weiter“
 10. Falls ein Windows-Sicherheits-Fenster sich öffnet, setzen Sie einen Haken bei „Software von „Delaware Altera Corporation“ immer vertrauen“ und drücken Sie auf „Installieren“
 ![Installation-05](../assets/DE0_inst_05.png)
+
+
+Hier nochmal das ganze in Videoform, falls man nicht ganz folgen konnte.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PE9Uxkb9s1w?si=C6sB8agcv-52HQWJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div class="video-container">
+    <iframe src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0">
+    </iframe>
+</div>

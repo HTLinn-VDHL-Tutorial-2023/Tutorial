@@ -1,8 +1,8 @@
 ---
 layout: default
 parent: Quartus & DE0-Board
-title: DE0-Board
-nav_order: 4
+title: Einführung DE0-Board
+nav_order: 1
 ---
 # Das DE0-Board
 ![DE0-picture](../assets/DE0.png)
