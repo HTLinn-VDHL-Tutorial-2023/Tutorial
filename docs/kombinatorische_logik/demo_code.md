@@ -5,22 +5,25 @@ title: Beispiel Programm
 nav_order: 6
 ---
 # Code mit Erklärung
+Dieser Beispielcode behandelt eine einfache logische Schaltung, welche aus einem UND und einem ODER Gatter besteht. Die Schaltung hat 3 Buttons als Inputs sowie eine LED als Output.
 
-
-Library IEEE wird importiert
+Zu Beginn des Programms müssen die benötigten libraries installiert werden.
 ```vhdl
 library IEEE;
 ```
 
 <br />
-STD_LOGIC Teil wird genutzt
+Mithilfe von „use“ wird bestimmt, welche Teile der library genutzt werden sollen.
 
 ```vhdl
 use IEEE.STD_LOGIC_1164.ALL;
 ```
 
 <br />
-In Entity kombinatorischelogik werden die Ein- und Ausgänge der Schaltung sowie die Variablen definiert.
+Im „entity“ Teil des Programms werden die Aus- und Eingänge der Schaltung konfiguriert. Hier ist zu beachten, dass der name nach „entity“ gleich sein muss als der, der im Project Navigator steht (siehe Video). Außerdem müssen die Signale auch im Pin Planner korrekt eingestellt werden.
+Hier wird auch eine Variable für den temporären Stand erstellt.
+In diesem Beispiel sind die Eingänge BUT_G3, BUT_F1 und BUT_H2. Der Ausgang ist die LED_J3.
+
 
 ```vhdl
 entity kombinatorischelogik is
@@ -33,18 +36,16 @@ end kombinatorischelogik;
 ```
 
 <br />
-In architecture Behavioral wird die Funktion der Schaltung definiert
+In „architekture Behaviorial“ wird die Logik der Schaltung definiert. In diesem Programm gibt es zwei Prozesse. 
 
 ```vhdl
 architecture Behaviorial of kombinatorischelogik is
 ```
 
 <br />
-Unterteilbar in mehrere Processes, jeweils mit process und end process begonnen und beendet.
+Der erste Prozess stellt das ODER Gatter dar. Wenn sowohl der BUT_F1 als auch der BUT_G3 gedrückt ist, dann wird die Variable auf 1 gesetzt. (Hinweis: bei den Buttons muss auf 0 abgefragt werden, da sie im gedrückten Zustand 0, im ungedrückten Zustand 1 zurückgeben)
+Der zweite Prozess stellt das UND Gatter dar. Wenn der BUT_H2 oder der Ausgang des ODER Gatters 1 ist, dann wird die LED eingeschaltet, sonst bleibt sie ausgeschaltet.
 
-Process 1: wenn der Button BUT_F1 oder BUT_G3 gedrückt ist, wird die Variable LED_STATUS auf 1 gesetzt. (ODER_Gatter zwischen den beiden Buttons)
-
-Process 2: wenn LED_STATUS 1 ist und der Button BUT_H2 gedrückt ist, wird die Led LED_J3 erst eingeschaltet.
 ```vhdl
 begin
 	process (BUT_F1, BUT_G3)
