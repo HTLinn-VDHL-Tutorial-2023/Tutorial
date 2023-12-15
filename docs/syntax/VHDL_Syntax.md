@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Einführung
-title: Syntax
-nav_order: 2
+parent: Syntax
+title: Syntax Erklärt
+nav_order: 3
 ---
 
 # VHDL-SYNTAX

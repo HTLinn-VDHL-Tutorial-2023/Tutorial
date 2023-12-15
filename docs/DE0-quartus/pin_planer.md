@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Einführung
+parent: Quartus & DE0-Board
 title: Pin Planer
 nav_order: 6
 ---

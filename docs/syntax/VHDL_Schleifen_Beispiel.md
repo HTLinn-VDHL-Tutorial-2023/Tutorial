@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Schleifen Bsp.
+parent: Syntax
+title: Schleifen Beispiel
 nav_order: 9
 ---
 # VHDL-Schleifen: Codebeispiel

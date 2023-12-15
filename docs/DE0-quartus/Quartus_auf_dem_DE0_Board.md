@@ -2,7 +2,7 @@
 layout: default
 parent: Quartus & DE0-Board
 title: Quartus auf dem DE0 Board
-nav_order: 2
+nav_order: 5
 ---
 # Quartus auf dem DE0 Board
 

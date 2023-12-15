@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Hierarchische Verschachtelungen
+parent: Syntax
+title: Verschachtelungen
 nav_order: 8
 ---
 # Hierarchische Verschachtelungen

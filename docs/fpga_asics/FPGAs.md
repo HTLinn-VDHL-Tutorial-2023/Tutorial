@@ -1,7 +1,7 @@
 ---
 layout: default
-nav_order: 3
-has_children: false
+nav_order: 2
+parent: Programmierbare Schaltkreise
 title: FPGAs
 ---
 

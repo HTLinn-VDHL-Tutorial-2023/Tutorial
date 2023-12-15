@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Syntax
 title: Standard Logic
 nav_order: 7
 ---

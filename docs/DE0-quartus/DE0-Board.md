@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Einführung
+parent: Quartus & DE0-Board
 title: DE0-Board
 nav_order: 4
 ---

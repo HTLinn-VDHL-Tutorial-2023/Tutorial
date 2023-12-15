@@ -1,7 +1,7 @@
 ---
 layout: default
-nav_order: 4
-has_children: false
+nav_order: 3
+parent: Programmierbare Schaltkreise
 title: ASICs
 ---
 
@@ -15,7 +15,7 @@ Ein ASIC (Application-Specific Integrated Circuit, auf Deutsch: anwendungsspezif
 
 PROM ist eine Art Read-Only Memory, die im Gegensatz zum ROM, der seinen Inhalt unveränderlich bei seiner Herstellung eingegeben bekommt, einmal programmiert werden kann. PROM-Bausteine werden heutzutage kaum noch verwendet, da sie vom EPROM (Erasable and Programmable ROM) abgelöst wurden.
 
-![PROM](assets/prom.png)
+![PROM](../assets/prom.png)
 
 Grundprinzip eines PROM
 
@@ -25,7 +25,7 @@ Programmable Array Logic (kurz PAL genannt) sind elektronische Halbleiterbaustei
 
 PALs sind Sonderfälle von PLAs (Programmable Logic Arrays) und dadurch gekennzeichnet, dass ausschließlich ihr UND-Array programmierbar ist.
 
-![PLA](assets/pla.png)
+![PLA](../assets/pla.png)
 
 Grundprinzip eines PLA
 

@@ -11,3 +11,7 @@ Diverse Quellen:
 *  PDFs [1](https://github.com/HTLinn-VDHL-Tutorial-2023/Tutorial/blob/main/3_Einf%C3%BChrung_VHDL_Teil1.pdf) [2](https://github.com/HTLinn-VDHL-Tutorial-2023/Tutorial/blob/main/5_Einfuhrung_VHDL_Teil2.pdf)
 *  Programme sind Eigenkreation, [Hier](https://github.com/HTLinn-VDHL-Tutorial-2023/Tutorial) zu finden
 * Unterlagen von Irobalieva Donka, Dipl.-Ing.in
+
+
+https://www.engineersgarage.com/vhdl-tutorial-1-introduction-to-vhdl/ (Designflow bild)
+https://www.mouser.ch/new/infineon/cypress-psoc-5lp-socs/ (PSoc bild)
