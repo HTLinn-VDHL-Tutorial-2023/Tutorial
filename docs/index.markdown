@@ -7,5 +7,14 @@ nav_order: 1
 ---
 # VHDL Tutorial
 
+Liebe Tutorial User/innen!
 
 Dies ist eine Anleitung zu VHDL, von den Grundlagen bis zu den ersten eigenen Programmen
+
+
+Wir bedanken uns herzlich, dass sie sich für unser Tutorial zum Erlernen von VHDL entschieden haben und wünschen einen guten Erfolg beim Lernen des Themas.
+
+Ihr Tutorial Team
+Schneider, Lengauer, Hilscher, Alimgeriev, Briola
+
+![Dummy](assets/vhdl_dummy.png)

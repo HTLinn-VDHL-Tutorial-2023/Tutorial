@@ -39,3 +39,19 @@ In der oberen Symbolleiste gibt es zwei Symbole für 0 und 1. Um die Signale auf
 Um die Simulation auszuführen, muss oben in der Symbolleiste auf „Run Functional Simulation“ geklickt werden. Die Ergebnisse der Simulation kann man an dem Status der Ausgänge ablesen.
 
 So funktioniert die Simulation in Quartus.
+
+
+Hier nochmal das ganze in Videoform, falls Sie nicht ganz folgen konnte.
+
+
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/KPNVpbH6sTY?si=JFrMPKAB3mEvTti8"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Quartus Simulation"
+  >
+</div>

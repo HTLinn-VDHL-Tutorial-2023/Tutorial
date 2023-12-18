@@ -100,3 +100,20 @@ Bei den Buttons ist darauf zu achten, dass sie beim drücken **0** zurückgeben,
 ### Hier Noch der Pin Planner
 
 ![Pinplanner-picture](../assets/pin_planner_sl.png)
+
+
+
+Hier nochmal das ganze in Videoform, falls Sie nicht ganz folgen konnte.
+
+
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/LqHndzUoXK8?si=2qQF9eLabLggIYjg"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Sequentielle Logik"
+  >
+</div>

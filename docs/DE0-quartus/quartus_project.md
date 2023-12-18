@@ -25,3 +25,20 @@ Im letzten Schritt können Dinge wie das Simulationsprogramm eingestellt werden.
 Als letztes wird eine Zusammenfassung der Einstellungen angezeigt, diese sollte man auf Fehler überprüfen.
 
 Nun wurde das Projekt erfolgreich erstellt und man kann mit dem Programmieren beginnen.
+
+
+
+Hier nochmal das ganze in Videoform, falls Sie nicht ganz folgen konnte.
+
+
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/s-CFBstPEnU?si=blB8o-TCraQTGWTZ" 
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Quartus Projekt"
+  >
+</div>

@@ -26,14 +26,18 @@ Installationsanweisungen:
 ![Installation-05](../assets/DE0_inst_05.png)
 
 
-Hier nochmal das ganze in Videoform, falls man nicht ganz folgen konnte.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PE9Uxkb9s1w?si=C6sB8agcv-52HQWJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Hier nochmal das ganze in Videoform, falls Sie nicht ganz folgen konnte.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<div class="video-container">
-    <iframe src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0">
-    </iframe>
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/PE9Uxkb9s1w?si=C6sB8agcv-52HQWJ"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="USB Blaster"
+  >
 </div>
+
