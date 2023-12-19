@@ -11,6 +11,7 @@ nav_order: 3
 Für die Programmierung wird außerdem ein Quartus Projekt benötigt. Hierbei ist auf die korrekten Einstellungen zu achten. Wenn man Quartus startet, wird standardmäßig folgendes angezeigt:
 
 Hier klickt man auf „New Project Wizard“
+![Projekt-picture](../assets/projektquartus1.png)
 
 Im folgenden Fenster wird kurz erklärt, was der Wizard macht. Hier einfach mit Next weitergehen.
 
@@ -19,6 +20,9 @@ Als nächstens kann man den Speicherort sowie den Namen des Projekts eingeben. D
 Im nächsten Fenster kann man extra-Dateien wie etwa libraries einfügen. Dann weiter mit Next.
 
 Im nächsten Schritt muss man nun die Hardware, auf der das Programm laufen sollte. Die Einstellungen für das DE0-Board sind folgende:
+
+![s_cyclone-einstellungen-DE0-Board](../assets/s_cyclone-einstellungen-DE0-Board.png)
+
 
 Im letzten Schritt können Dinge wie das Simulationsprogramm eingestellt werden.
 
